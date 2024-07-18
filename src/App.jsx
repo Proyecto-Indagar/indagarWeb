@@ -1,6 +1,8 @@
 // 1. Importar React y otros módulos necesarios
 import React from "react";
 import Navbar from "./Components/NavBar/Navbar";
+import AboutUs from './Components/AboutUs/AboutUs';
+
 
 // 2. Crear el componente App
 const App = () => {
@@ -36,6 +38,8 @@ const App = () => {
           </div>
         </div>
       </div>
+    <div>
+      <AboutUs></AboutUs>
     </div>
   );
 };
