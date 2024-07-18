@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+}
+/* styles.css */
+.container-fluid{
+    background: linear-gradient(to right, green, #98fb98);
+    opacity: initial;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  .logo{
+    margin-right: 0.5rem !important;
+  }
+  
+  .col{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: #fff;
+    font-size:40px;
+    font-weight: bold;
+  }
+  
+  .btn{
+    border-radius: 50px;
+    font-size:18px;
+  }
+  
