@@ -5,10 +5,13 @@ import Posts from './pages/Posts';
 import Multimedia from './pages/Multimedia';
 import Contact from './pages/Contact';
 
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -16,6 +19,7 @@ const App = () => {
         <Route path="/posts" element={<Posts />} />
         <Route path="/multimedia" element={<Multimedia />} />
       </Routes>
+      <Footer />
     </>
   );
 };
