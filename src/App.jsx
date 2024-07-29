@@ -1,13 +1,17 @@
 // 1. Importar React y otros módulos necesarios
 import React from "react";
 import Navbar from "./Components/NavBar/Navbar";
+import Posts from "./Components/Posts";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // 2. Crear el componente App
 const App = () => {
   // 3. Retornar JSX
   return (
     <div className="App">
+      <div class="overlay">
       <Navbar />
+           <div class="container">
       <div>
         <div className="container text-center">
           <div className="row">
@@ -36,6 +40,14 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      {/* SECCION DE PUBLICACIONES */}
+      <Posts />
+    </div>
+      </div>
+     
+
+
     </div>
   );
 };
