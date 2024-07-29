@@ -1,5 +1,5 @@
 // src/components/Posts.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Card, Button, Container, Row, Col, Modal } from 'react-bootstrap';
 import './Posts.css';
 

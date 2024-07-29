@@ -1,56 +1,59 @@
-// 1. Importar React y otros módulos necesarios
-import React from "react";
+// src/components/App.jsimport React from "react";
 import Navbar from "./Components/NavBar/Navbar";
 import Posts from "./Components/Posts";
+import AboutUs from './Components/AboutUs/AboutUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'; // Asegúrate de importar el CSS
 
-// 2. Crear el componente App
 const App = () => {
-  // 3. Retornar JSX
   return (
     <div className="App">
-      <div class="overlay">
-      <Navbar />
-           <div class="container">
-      <div>
-        <div className="container text-center">
+      <Navbar /> {/* Navbar en la parte superior */}
+      <div className="overlay" /> {/* Capa negra sobrepuesta */}
+      <div className="container">
+        <div className="text-center">
           <div className="row">
-            <div className="col contenido1 ">
+            <div className="col">
               <div className="row">
-                TERRITORIOS INDIGENAS: UN POTENCIAL PARA UNA TRANSFORMACIÓN
-                SOSTENIBLE Y JUSTA DEL SISTEMA ALIMENTARIO
-              </div>
 
-              <div className="row">
+              <div className="col-6">
+              <h1>
+                  TERRITORIOS INDIGENAS: UN POTENCIAL PARA UNA TRANSFORMACIÓN
+                  SOSTENIBLE Y JUSTA DEL SISTEMA ALIMENTARIO
+                </h1>
+                </div>
                 <div className="col-6">
-                  <button type="button" className="w-100 btn btn-light ">
-                    Light
-                  </button>
+                 
                 </div>
 
+              </div>
+              <div className="row">
+                <div className="col-6">
+                  <button type="button" className="w-100 btn btn-light">
+                    QUÉ HACEMOS
+                  </button>
+                </div>
                 <div className="col-6">
                   <button type="button" className="w-100 btn btn-success">
-                    Success
+                    CONTACTANOS
                   </button>
                 </div>
               </div>
             </div>
-
-            <div className="col"></div>
           </div>
         </div>
+
+        {/* SECCIÓN DE PUBLICACIONES */}
+        <div>
+          <Posts />
+        </div>
+
+        <div>
+          <AboutUs />
+        </div>
       </div>
-
-      {/* SECCION DE PUBLICACIONES */}
-      <Posts />
-    </div>
-      </div>
-     
-
-
     </div>
   );
 };
 
-// 4. Exportar el componente
 export default App;
