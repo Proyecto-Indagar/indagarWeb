@@ -8,22 +8,38 @@ const Footer = () => {
           <div className="col-md-4">
             <h5>Proyecto Indagar</h5>
             <p>
-              Proyecto Indagar es una ONG dedicada a la investigación y difusión de conocimientos en diversas áreas científicas y sociales.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
           <div className="col-md-4">
             <h5>Contacto</h5>
-            <p>Email: contacto@proyectoindagar.org</p>
-            <p>Teléfono: +1 234 567 890</p>
-            <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+            <p><a href='mailto:contacto@proyectoindagar.org'>contacto@indagar.org</a></p>
+            <p><a href='tel:+59179797979'>+591 79797979</a></p>
+            <p>Cochabamba Av. X Nº 1 esq. Calle Y</p>
           </div>
           <div className="col-md-4">
             <h5>Síguenos</h5>
             <ul className="social-links">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
+              <li>
+                <a href="#">
+                  <i className="ri-facebook-fill" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="ri-instagram-fill" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="ri-twitter-fill" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="ri-youtube-fill" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #435713; /* Fondo en dark-green */
+  background-color: #748918; /* Fondo en dark-green */
   color: #ffffff; /* Texto blanco */
   padding: 20px 0;
 }
@@ -47,8 +47,13 @@
 
 .footer-bottom {
   margin-top: 20px;
-  border-top: 1px solid #859736; /* Línea divisora en alternative-green */
+  border-top: 1px solid #fff; /* Línea divisora en alternative-green */
   padding-top: 10px;
   width: 100%;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
