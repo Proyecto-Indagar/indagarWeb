@@ -1,8 +1,8 @@
 .container-fluid{
     background:  #748918;
     opacity: initial;
-    padding: 0.5rem;
-    font-weight: bold;
+    margin:2rem;
+    padding:2rem;
   }
 
   .logo{
