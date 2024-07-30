@@ -1,27 +1,23 @@
-import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import About from './pages/About';
-import Posts from './pages/Posts';
-import Multimedia from './pages/Multimedia';
-import Contact from './pages/Contact';
+// 1. Importar React y otros módulos necesarios
+import React from 'react';
 
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-
+// 2. Crear el componente App
 const App = () => {
+  // 3. Retornar JSX
   return (
-    <>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/posts" element={<Posts />} />
-        <Route path="/multimedia" element={<Multimedia />} />
-      </Routes>
-      <Footer />
-    </>
+    <div>
+      <header>
+        <h1>Welcome to My React App</h1>
+      </header>
+      <main>
+        <p>This is the main content of the app.</p>
+      </main>
+      <footer>
+        <p>&copy; 2024 My React App</p>
+      </footer>
+    </div>
   );
 };
 
+// 4. Exportar el componente
 export default App;
