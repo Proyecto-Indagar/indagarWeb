@@ -39,7 +39,6 @@
     "*.js": "npm run lint:fix",
     "*.jsx": "npm run lint:fix",
     "*.ts": "npm run lint:fix",
-    "*.tsx": "npm run lint:fix",
-    "*.json": "prettier --write"
+    "*.tsx": "npm run lint:fix"
   }
 }
